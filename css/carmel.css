@@ -481,7 +481,7 @@ input[type=checkbox] {
     font-size: 1vw;text-align: center;padding: 2%;padding-left: 5%;padding-right: 5%;font-family: 'Raleway';font-weight: 400
 }
 .join-our-team-text{
-    font-size: 2vw;font-weight: 1000;color: #505050;font-family: 'Raleway',heavy;margin-bottom: 3%
+    font-size: 2vw;font-weight: bolder;color: #505050;font-family: 'Raleway',heavy;margin-bottom: 3%
 }
 .join-our-team-desc{
     font-size: 1.1760953112990008vw;margin-bottom: 5%;color: #505050;font-family: 'Raleway';font-weight: 500
@@ -532,7 +532,7 @@ input[type=checkbox] {
     font-size:0.9223674096848578vw;font-family: 'Raleway';font-weight: 700
 }
 .work-exp{
-    font-size: 1.8vw;font-weight: 1000;color: #505050;font-family: 'Raleway',heavy;margin-bottom: 2%
+    font-size: 1.8vw;font-weight: bolder;color: #505050;font-family: 'Raleway',heavy;margin-bottom: 2%
 }
 .work-exp-desc{
     font-size: 1.0760953112990008vw;font-weight: 500;font-family: 'Raleway';padding-bottom: 3%;color: #505050
@@ -564,7 +564,30 @@ input[type=checkbox] {
 .big-line{
     margin-right:50%;margin-bottom: -3%;display: flex;align-items: flex-end;justify-content: flex-end;margin-top: 3%
 }
-
+.carmel-black-logo-size{
+    max-height:40%;width: 40%
+}
+.blue-btn-size{
+    width: 8%;height: 8%;
+}
+.black-button-size,.back-page-img-empathy,.next-page-img-empathy{
+    width: 7%;height: 7%;
+}
+.distruptive-ideation-img-size{
+    width:50%;min-height: 80%
+}
+.drop-file-size,.recaptacha-size{
+    width: 10%;height: 10%;
+}
+.carmel-last-page-logo{
+    width: 50%;height: 50%;
+}
+.carmel-logo{
+    width: 40%;height: 40%;
+}
+.back-page-img-gen,.next-page-img-gen{
+    width: 6%;height: 6%; 
+}
 
 
 @media screen and (min-device-width:1440px){
