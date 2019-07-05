@@ -403,7 +403,7 @@ a{
     font-size:1.3835511145272867vw;margin-top: 5%;padding-bottom: 8%;font-weight: 400;font-family: 'Raleway';text-align: justify;line-height: 1.3;
 }
 .distruptive-ideation-text{
-    font-size:1.3835511145272867vw;writing-mode: vertical-rl;transform: rotate(-180deg);font-weight: bold;font-family: 'Raleway'
+    font-size:1.3835511145272867vw;writing-mode: vertical-rl;transform: rotate(-180deg);font-weight: bold;font-family: 'Raleway';
 }
 .back-icon-size{
     width:90%;
@@ -481,7 +481,7 @@ input[type=checkbox] {
     font-size: 1vw;text-align: center;padding: 2%;padding-left: 5%;padding-right: 5%;font-family: 'Raleway';font-weight: 400
 }
 .join-our-team-text{
-    font-size: 2vw;font-weight: bolder;color: #505050;font-family: 'Raleway',heavy;margin-bottom: 3%
+    font-size: 2vw;font-weight: bolder;color: #505050;font-family: 'Raleway',heavy;margin-bottom: 5%
 }
 .join-our-team-desc{
     font-size: 1.1760953112990008vw;margin-bottom: 5%;color: #505050;font-family: 'Raleway';font-weight: 500
@@ -526,7 +526,7 @@ input[type=checkbox] {
     font-size:1.2vw;color: #909090;margin-left: 5%
 }
 .submit-btn{
-    background-color:#505050;padding:1%;border: 1px solid #505050;padding-left: 2%;padding-right: 2%
+    background-color:#505050;padding:1%;border: 1px solid #505050;
 }
 .submit-text{
     font-size:0.9223674096848578vw;font-family: 'Raleway';font-weight: 700
@@ -576,7 +576,7 @@ input[type=checkbox] {
 .distruptive-ideation-img-size{
     width:50%;min-height: 80%
 }
-.drop-file-size,.recaptacha-size{
+.drop-file-size,.recaptacha-size,.hr-recaptacha-size{
     width: 10%;height: 10%;
 }
 .carmel-last-page-logo{
@@ -588,7 +588,90 @@ input[type=checkbox] {
 .back-page-img-gen,.next-page-img-gen{
     width: 6%;height: 6%; 
 }
-
+.hr-desk-box{
+    padding-top: 90%;
+}
+.input-container{
+    padding-left: 2%;padding-top:1%;padding-bottom: 2%;width: 30%
+}
+.recaptacha-container{
+    padding-bottom:3%;width:30%;padding-left:2%
+}
+.button-container{
+    padding-left: 2%;padding-bottom: 3%;width:50%
+}
+.hr-input-container{
+    padding-left: 2%;padding-top:1%;padding-bottom: 1%
+}
+.join-our-team-form-container{
+    background-color:#EAF2F4;width: 100%;padding: 3%
+}
+.attach-file-web-container{
+    padding-bottom:3%
+}
+.attach-file-mobile-container{
+    display: none
+}
+.bootcamp-form{
+    background-color:#EAF2F4;width: 100%;padding: 2%
+}
+.hr-captacha-container{
+    padding-bottom:3%;width:50%;padding-left:2%
+}
+.hr-button-container{
+    padding-left: 2%;padding-bottom: 1%
+}
+.hr-desk-right-box{
+    padding-top:12%;padding-bottom: 5%
+}
+.concept-container{
+    padding-top: 5vh;width: 65%
+}
+.our-approach-desc-align-end{
+    align-self: flex-end
+}
+.ourapproach-header{
+    padding-top:8%
+}
+.products-head-desc-text{
+    font-family:'Raleway';font-weight:500;color:#4B6A77;font-size:1.2vw;padding-top:10%;width: 70%;line-height: 1.5
+}
+.border-top-blue{
+    border-top:0.5vw solid #4B6A77
+}
+.products-sub-title-text{
+    font-family:'Raleway';font-weight:600;color:#4B6A77;font-size: 1.5447348193697155vw;
+}
+.depend-on-us-desc-container{
+    width: 65%;padding-top:5vh
+}
+.copyright-container{
+    padding-top:1%;width: 60%
+}
+.address-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+.logo{
+    width:50%;padding-left: 3%
+}
+.col-2{
+    width: 95%;
+    display: flex;
+}
+.col-2-2{
+    padding-right: 5%
+}
+.min-height-fourty{
+    min-height: 40vh;
+}
+.col-2-1-empathy{
+    padding-left:5%;padding-right:5%;width: 55%
+}
+.col-2-2-empathy{
+    padding-right: 5%;width: 40%
+}
 
 @media screen and (min-device-width:1440px){
     .sub-desc-text,.products-sub-desc-text{
@@ -618,7 +701,6 @@ input[type=checkbox] {
     }
 }
 
-
 @media screen and (max-device-width:425px){
     .intro-container{
         display: flex;
@@ -635,18 +717,356 @@ input[type=checkbox] {
     .intro-cup{
         width: 70%;
         height: 100%;
+        margin-bottom: 0%
     }
     .ourapp-container,.distruptive-container,.strategic-container,.builtin-container,.reliable-container,.products-container,.depend-container{
         display: flex;
-        flex-direction: column
+        flex-direction: column;
+        margin-left: 10%;
+        margin-right: 10%;
+        justify-content: space-evenly
     }
     .ourapp-left-container,.ourapp-right-container{
         width: 100%;
     }
     .distruptive-left-container,.strategic-left-container,.builtin-left-container,.reliable-left-container,.products-left-container,.depend-left-container{
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%
+    }
+    .distruptive-right-container,.builtin-right-container,.reliable-right-container,.products-right-container,.depend-right-container{
+        width: 100%;
+        align-self: flex-start;
+        margin-bottom: 5%;
+        margin-top: 5%
+    }
+    .strategic-right-container{
+        width: 80%;
+        align-self: flex-end;
+        margin-bottom: 5%;
+        margin-top: 5%
+    }
+    .software-devlopment{
+        margin-top: 20%;
+        font-size: 1.5vh;
+    }
+    .ashtoning-text{
+        font-size: 1.5vh;
+    }
+    .thriving-text{
+        font-size: 1.5vh;
+        padding-bottom: 8%
+    }
+    .our-text{
+        border-top: 0.9vh solid #ffffff;
+        font-size: 6.420545746388443vh
+    }
+    .approach-text{
+        font-size: 6.420545746388443vh
+    }
+    .our-approach-desc-align-end{
+        align-self: center
+    }
+    .ourapp-container{
+        justify-content: space-between
+    }
+    .ourapp-left-container{
+        margin-top: 20%
+    }
+    .ourapp-right-container{
+        margin-left: 5%;
+        margin-right: 5%
+    }
+    .our-steps{
+        width: 90%;
+        font-size: 1.926163723916533vh
+    }
+    .our-approach-desc{
+        font-size: 1.6051364365971108vh;
+        width: 90%
+    }
+    .our-text-head-blue,.our-text-head-white,.approach-text-head{
+        font-size: 1.6051364365971108vh;
+    }
+    .distruptive-left-container{
+        margin-left: 0%
+    }
+    .page-num-text{
+        font-size: 8.025682182985554vh
+    }
+    .total-page-text{
+        font-size: 3.0102728731942216vh
+    }
+    .title-text{
+        font-size: 4.615409309791332vh
+    }
+    .sub-title-text{
+        font-size: 2.247191011235955vh
+    }
+    .sub-desc-text{
+        font-size: 1.926163723916533vh;
+        width: 90%
+    }
+    .strategic-desc-text{
+        font-size: 1.6051364365971108vh
+    }
+    .products-title-text{
+        font-size: 3.3707865168539324vh
+    }
+    .border-top-blue{
+        border-top:0.6vh solid #4B6A77
+    }
+    .products-head-desc-text{
+        font-size: 1.926163723916533vh;
         width: 100%
     }
-    .distruptive-right-container,.strategic-right-container,.builtin-right-container,.reliable-right-container,.products-right-container,.depend-right-container{
-        width: 50%
+    .products-sub-title-text,.products-sub-desc-text{
+        font-size: 2.047191011235955vh;
+        width: 100%
+    }
+    .black-button-size,.blue-btn-size{
+        width: 13%;
+    }
+    .dep-text,.end-text{
+        font-size: 3.3707865168539324vh
+    }
+    .depend-desc-text,.concept-to-launch-text,.hr-desc-text{
+        font-size: 1.926163723916533vh
+    }
+    .concept-to-launch-desc,.join-our-team-desc,.work-exp-desc,.para-text,.thought-text,.hubli-address-text,.distruptive-ideation-text{
+        font-size: 1.6051364365971108vh
+    }
+    .depend-on-us-desc-container,.hr-desc-text,.para-text{
+        width: 100%
+    }
+    .hr-text,.desk-text{
+        font-size: 3.3707865168539324vh
+    }
+    .hr-email-text{
+        font-size: 2.247191011235955vh
+    }
+    .submit-text{
+        font-size: 0.9630818619582665vh;
+    }
+    .carmel-black-logo-size{
+        width: 30%;
+    }
+    .products-right-container{
+        padding-left: 0%;
+    }
+    .our-app-img{
+        width: 100%
+    }
+    .depend-right-container{
+        padding: 0%
+    }
+    .hr-desk-container{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .hrdesk-left-container,.hrdesk-right-container{
+        width: 100%;
+        padding-left: 0%;
+        padding-right: 0%
+    }
+    .hr-desk-box{
+        padding-top: 10%;
+    }
+    .carmel-last-page-logo{
+        width: 80%
+    }
+    .contact-us-container{
+        justify-content: flex-start;
+        margin-top: 15%
+    }
+    .input-container,.recaptacha-container{
+        width: 70%
+    }
+    .we-deliver{
+        margin-top: 5%;
+        margin-bottom: 10%;
+        font-size: 3.3707865168539324vh
+    }
+    .recaptacha-container{
+        margin-top: 5%
+    }
+    .captcha-container{
+        padding-right: 5%
+    }
+    .captcha-image-container{
+        align-items: flex-end;
+        margin-right: 5%
+    }
+    .recaptacha-size{
+        width: 20%
+    }
+    input[type=checkbox] {
+        height: 15px;
+        width: 15px;
+        background-color: #ffffff;
+    }
+    .button-container,.hr-button-container{
+        margin-top: 5%;
+    }
+    .btn-width{
+        padding: 3%
+    }
+    .contact-us-container{
+        min-height: 95vmax
+    }
+    .input-box{
+        width: 80%;
+        font-size: 1.1235955056179776vh;
+        padding: 2%;
+    }
+    .input-box-email{
+        font-size: 1.1235955056179776vh;
+        padding: 3%;
+    }
+    .join-our-team-form-container,.bootcamp-form{
+        padding: 5%
+    }
+    
+    .attach-file-web-container{
+        display: none
+    }
+    .attach-file-mobile-container{
+        width: 30%;
+        background-color: #32BDD2;
+        display: block;
+        margin: 2%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+        border-radius: 8%
+    }
+    .attach-file-text{
+        font-size: 0.9630818619582665vh;
+        font-family: 'Raleway';
+        font-weight: 600;   
+    }
+    .hr-captacha-container{
+        width: 60%
+    }
+    .hr-recaptacha-size{
+        width: 30%
+    }
+    .hr-btn-width{
+        width: 20%
+    }
+    .join-our-team-text{
+        font-size: 2.568218298555377vh
+    }
+    .hr-desk-right-box{
+        padding-top: 10%
+    }
+    .concept-container{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
+    .logo-box{
+        margin-bottom: 5%
+    }
+    .iamnot-robot,.recaptcha{
+        font-size: 0.6420545746388443vh
+    }
+    .privacy-rules{
+        font-size: 0.48154093097913325vh
+    }
+    .work-exp{
+        font-size: 2.568218298555377vh
+    }
+    .quote{
+        width: 80%;
+        padding: 3%
+    }
+    .copyright-notice{
+        margin-top: 10%;
+        font-size: 1.2841091492776886vh
+    }
+    .copyright-notice-desc{
+        margin-top: 5%;
+        font-size: 1.2841091492776886vh;
+    }
+    .copyright-container{
+        width: 80%
+    }
+    .address-container{
+        display: flex;
+        flex-direction: column
+    }
+    .logo{
+        align-self: flex-start;
+        width: 100%;
+        padding: 3%;
+        padding-bottom: 0%;
+        padding-left: 5%
+    }
+    .address-box{
+        width: 100%;
+        justify-content: space-between;
+        padding:2%;
+        padding-left: 5%;
+        padding-right: 5%
+    }
+    .banglore-address-text{
+        font-size: 1.6051364365971108vh;
+        text-align: left
+    }
+    .col-1{
+        width: 10%
+    }
+    .col-2{
+        width:90%;
+        display: flex;
+        flex-direction: column-reverse
+    }
+    .col-2-1,.col-2-1-empathy{
+        width: 100%;
+    }
+    .col-2-2,.col-2-2-empathy{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 10%;
+        padding-right: 5%;
+        padding-left: 5%
+    }
+    .distruptive-sub-section-title-text{
+        font-size: 2.568218298555377vh
+    }
+    .distruptive-sub-section-desc-text{
+        font-size: 1.6369047619047619vh;
+        width: 100%
+    }
+    .min-height-fourty{
+        min-height: 30vh;
+    }
+    .buttons{
+        text-align: end
+    }
+    .pagination{
+        width: 80%
+    }
+    .back-page-img-gen,.next-page-img-gen,.back-page-img-empathy,.next-page-img-empathy{
+        width: 13%;
+        height: 13%
+    }
+    .col-2-empathy{
+        width:90%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-start
+    }
+    .empathy-img{
+        width: 100%
+    }
+    .our-approach-line-container{
+        width: 89%
+    }
+    .small-line{
+        margin-left: 3%
     }
 }
