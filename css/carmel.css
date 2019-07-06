@@ -559,7 +559,8 @@ input[type=checkbox] {
     width:30%;text-align: end;font-size: 1.2vw;font-family: 'Roboto';font-weight: 500
 }
 .small-line{
-    align-self:flex-start;margin-right: 7.8%
+    align-self:flex-start;margin-left: 53%;width:50%;margin-right:10%
+   
 }
 .big-line{
     margin-right:50%;margin-bottom: -3%;display: flex;align-items: flex-end;justify-content: flex-end;margin-top: 3%
@@ -672,6 +673,12 @@ input[type=checkbox] {
 .col-2-2-empathy{
     padding-right: 5%;width: 40%
 }
+.header-small-line{
+    display: flex;justify-content: space-between;margin-left: 10%;margin-right: 10%;
+}
+.our-approach-line-container{
+    align-self:flex-start;padding-top:3%;margin-right:5%;width: 50%
+}
 
 @media screen and (min-device-width:1440px){
     .sub-desc-text,.products-sub-desc-text{
@@ -697,7 +704,7 @@ input[type=checkbox] {
         margin-right:51%;margin-bottom: -3%;display: flex;align-items: flex-end;justify-content: flex-end;margin-top: 15%
     }
     .small-line{
-        align-self:flex-start;margin-right: 15%
+        align-self:flex-start;margin-left: 52%;
     }
 }
 
@@ -1063,10 +1070,23 @@ input[type=checkbox] {
     .empathy-img{
         width: 100%
     }
-    .our-approach-line-container{
-        width: 89%
-    }
     .small-line{
-        margin-left: 3%
+        display: flex;
+        align-items: flex-start;
+        width: 50%;
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+    .header-small-line{
+        margin-left: 0%
+    }
+    .our-approach-line-container{
+        width: 52%;
+        margin-right: 0%;
+        padding-top: 5%;
+        margin-left: 5%
+    }
+    .bootcamp-container-svg{
+        width: 100%
     }
 }
