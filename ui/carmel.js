@@ -554,14 +554,14 @@ function showIot() {
 }
 
 setInterval(function(){
-    setTimeout("showMobiltity()", 3000);
-    setTimeout("showBigData()", 6000);
-    setTimeout("showSupport()", 9000);
-    setTimeout("showRoadmap()", 12000);
-    setTimeout("showCloud()", 15000);
-    setTimeout("showEnterprise()", 18000);
-    setTimeout("showWeb()", 21000);
-    setTimeout("showIot()", 24000);
-    setTimeout("showMuchMore()", 27000);
-},3000)
+    setTimeout("showMobiltity()", 5000);
+    setTimeout("showBigData()", 10000);
+    setTimeout("showSupport()", 15000);
+    setTimeout("showRoadmap()", 20000);
+    setTimeout("showCloud()", 25000);
+    setTimeout("showEnterprise()", 30000);
+    setTimeout("showWeb()", 35000);
+    setTimeout("showIot()", 40000);
+    setTimeout("showMuchMore()", 45000);
+},5000)
 clearInterval();

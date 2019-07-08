@@ -33,7 +33,6 @@ app.post('/save-email', function (req, res) {
     if(data.phone_num===''||data.phone_num==='undefined'){
         data.phone_num=0;
     }
-    console.log(data)
     conn.query('INSERT INTO Users SET ?', data, function (err, result, fields) {
         if (err) {
             var retValue = {

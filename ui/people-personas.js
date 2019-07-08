@@ -60,5 +60,5 @@ setInterval(function(){
     setTimeout("showPeople4()", 20000);
     setTimeout("showPeople5()", 25000);
     setTimeout("showPeople6()", 30000);
-},1000)
+},5000)
 clearInterval();

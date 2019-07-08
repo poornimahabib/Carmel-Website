@@ -23,7 +23,6 @@ $(document).ready(function () {
                         '_data': JSON.stringify(data)
                     },
                     success: function (_result) {
-                        console.log(_result)
                         if(_result.success==="true"){
                             $('#save-success-modal').show();
                         }else{
@@ -62,7 +61,6 @@ $(document).ready(function () {
                         '_data': JSON.stringify(data)
                     },
                     success: function (_result) {
-                        console.log(_result)
                         if(_result.success==="true"){
                             $('#save-success-modal').show();
                         }else{
@@ -94,7 +92,6 @@ $(document).ready(function () {
                 var data={};
                 data.email=txtEmail;
                 data.phone_num=txtPhone;
-                console.log(JSON.stringify(data));
                 $.ajax({
                     url: "http://localhost:3000/save-email",
                     type: "POST",
@@ -102,7 +99,6 @@ $(document).ready(function () {
                         '_data': JSON.stringify(data)
                     },
                     success: function (_result) {
-                        console.log(_result)
                         if(_result.success==="true"){
                             $('#save-success-modal').show();
                         }else{
