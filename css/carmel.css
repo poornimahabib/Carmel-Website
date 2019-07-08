@@ -6,6 +6,9 @@
 a{
     text-decoration: none;
 }
+p,span{
+    letter-spacing: 1px;
+}
 
 /* floats */
 .left{
@@ -373,25 +376,25 @@ a{
     padding-right: 8%;
 }
 .our-text-head-white{
-    border-top:2px solid #ffffff;font-size:1.2vw;font-weight: bold;font-family: 'Raleway';
+    border-top:0.2vw solid #ffffff;font-size:1.2vw;font-weight: bold;font-family: 'Raleway';
 }
 .our-text-head-blue{
-    border-top:2px solid #32BDC2;font-size:1.2vw;font-weight: bold;font-family: 'Raleway';
+    border-top:0.2vw solid #32BDC2;font-size:1.2vw;font-weight: bold;font-family: 'Raleway';
 }
 .approach-text-head{
     font-size: 1.2vw;font-weight: bold;font-family: 'Raleway';
 }
 .page-num-text{
-    font-size:4.864796310530361vw;font-weight: 400;font-family: 'Anton';
+    font-size:4.864796310530361vw;font-weight: 400;font-family: 'Anton';opacity: 0.6;
 }
 .total-page-text{
-    font-size:2.1521906225980016vw;font-family: 'Raleway';font-weight: 400;
+    font-size:2.1521906225980016vw;font-family: 'Raleway';font-weight: 400;opacity: 0.6;
 }
 .title-text{
     font-size: 4.065564950038432vw;font-family: 'Raleway';font-weight: 700;
 }
 .sub-title-text{
-    font-size: 1.5447348193697155vw;font-weight: 600;font-family: 'Raleway';color: #212121;
+    font-size: 1.5447348193697155vw;font-weight: 600;font-family: 'Raleway';color: #212121;padding-bottom: 3%
 }
 .sub-desc-text{
     font-size: 1.3835511145272867vw;font-weight: 400;font-family: 'Raleway';color: #212121;
@@ -424,7 +427,7 @@ input[type=checkbox] {
     background-color: #ffffff;
 }
 .depend-desc-text{
-    font-size: 1vw;border-bottom: 1px solid #09cee4;border-top: 1px solid #09cee4;padding-bottom: 4%;padding-top: 4%;font-family: 'Raleway';font-weight: 400
+    font-size: 1.1vw;border-bottom: 1px solid #7FD2DB;border-top: 1px solid #7FD2DB;padding-bottom: 4%;padding-top: 4%;font-family: 'Raleway';font-weight: 400
 }
 .hr-text{
     border-top:0.6vw solid #32BDC2;font-size: 3.074558032282859vw;font-weight: 800;font-family: 'Raleway'
@@ -439,10 +442,10 @@ input[type=checkbox] {
     color: #505050;font-size: 1.1223674096848578vw;border-bottom: 1px solid #505050;font-family: 'Raleway';font-weight: 600;
 }
 .strategic-desc-text{
-    font-size:0.9vw;color:#505050;padding: 3%;text-align: center;
+    font-size:0.9vw;color:#505050;padding: 3%;text-align: center;font-family: 'Raleway';font-weight: 400
 }
 .strategic-desc-container{
-    border:1px solid #ffffff;width: auto;margin-bottom: 5%;background-color: #B8D5DD;height: 12%;
+    border:1px solid #ffffff;width: 100%;margin-bottom: 5%;background-color: #B8D5DD;height: 110px;
 }
 .software-devlopment{
     font-size:1.4vw;font-family: 'Raleway', regular;font-weight: 400;
@@ -460,16 +463,19 @@ input[type=checkbox] {
     font-size: 5.541660261337433vw;font-weight: bold;font-family: 'Raleway', Bold;
 }
 .our-steps{
-    font-size:1.3835511145272867vw;margin: 2vh;padding-top:3%;padding-bottom: 3%;border-bottom: 1px solid #09cee4;border-top: 1px solid #09cee4;font-family: 'Raleway';font-weight:700;width: 80%;line-height: 1.5
+    font-size:1.3835511145272867vw;margin: 2vh;padding-top:3%;padding-bottom: 3%;border-bottom: 1px solid #7FD2DB;border-top: 1px solid #7FD2DB;font-family: 'Raleway';font-weight:700;width: 80%;line-height: 1.5
 }
 .our-approach-desc{
     font-size:1.3835511145272867vw;padding:1vh;margin-top:6%;font-family: 'Raleway', Light;width: 85%;font-weight:300;line-height: 1.3
 }
 .dep-text{
-    border-top:0.6vw solid #ffffff;font-size: 3.074558032282859vw;font-family: 'Raleway';font-weight: 900
+    border-top:0.6vw solid #ffffff;font-size: 3.5431975403535743vw;font-family: 'Raleway';font-weight: 900;padding-top: 1%
 }
 .end-text{
-    font-size: 3.074558032282859vw;font-family: 'Raleway';font-weight: 900
+    font-size: 3.5431975403535743vw;font-family: 'Raleway';font-weight: 900;padding-top: 2.6%
+}
+.ducts-text{
+    padding-top:2%
 }
 .concept-to-launch-container{
     background-color:#A7DEE5;padding: 5%;border: 1px solid #32BDC2
@@ -558,15 +564,17 @@ input[type=checkbox] {
 .hubli-address-text{
     width:30%;text-align: end;font-size: 1.2vw;font-family: 'Roboto';font-weight: 500
 }
+.double-quote{
+    font-size: 5vw;font-family: 'Pinyon';font-weight: 700;
+}
 .small-line{
     align-self:flex-start;margin-left: 53%;width:50%;margin-right:10%
-   
 }
 .big-line{
     margin-right:50%;margin-bottom: -3%;display: flex;align-items: flex-end;justify-content: flex-end;margin-top: 3%
 }
 .carmel-black-logo-size{
-    max-height:40%;width: 40%
+    height:auto;max-width: 50%
 }
 .blue-btn-size{
     width: 8%;height: 8%;
@@ -638,7 +646,8 @@ input[type=checkbox] {
     font-family:'Raleway';font-weight:500;color:#4B6A77;font-size:1.2vw;padding-top:10%;width: 70%;line-height: 1.5
 }
 .border-top-blue{
-    border-top:0.5vw solid #4B6A77
+    border-top:0.5vw solid #4B6A77;
+    padding-top: 1%;
 }
 .products-sub-title-text{
     font-family:'Raleway';font-weight:600;color:#4B6A77;font-size: 1.5447348193697155vw;
@@ -657,7 +666,7 @@ input[type=checkbox] {
 .logo{
     width:50%;padding-left: 3%
 }
-.col-2{
+.col-2,.col-2-empathy{
     width: 95%;
     display: flex;
 }
@@ -678,6 +687,18 @@ input[type=checkbox] {
 }
 .our-approach-line-container{
     align-self:flex-start;padding-top:3%;margin-right:5%;width: 50%
+}
+.input-error-container{
+    background-color:#FFDBD0;display: flex;align-items: center;justify-content: center;display: none
+}
+.warn-img{
+    height:5%;width:6%;margin-right: 3%
+}
+.warn-text{
+    color:#772309;font-size:0.786395080707148vw;font-family: 'Raleway';font-weight: 500;
+}
+.input-error-width{
+    width:50%
 }
 
 @media screen and (min-device-width:1440px){
@@ -716,10 +737,15 @@ input[type=checkbox] {
     }
     .intro-left-container{
         align-self: center;
+        width: 80%
     }
     .intro-right-container{
         align-self: flex-end;
         width: 50%;
+    }
+    .homepage-cup-img {
+        max-height: 40%;
+        width: 60%;
     }
     .intro-cup{
         width: 70%;
@@ -736,6 +762,9 @@ input[type=checkbox] {
     .ourapp-left-container,.ourapp-right-container{
         width: 100%;
     }
+    .depend-left-container{
+        margin-top: 5%
+    }
     .distruptive-left-container,.strategic-left-container,.builtin-left-container,.reliable-left-container,.products-left-container,.depend-left-container{
         width: 100%;
         margin-left: 0%;
@@ -748,7 +777,8 @@ input[type=checkbox] {
         margin-top: 5%
     }
     .strategic-right-container{
-        width: 80%;
+        width: 100%;
+        margin-right: 0%;
         align-self: flex-end;
         margin-bottom: 5%;
         margin-top: 5%
@@ -762,7 +792,8 @@ input[type=checkbox] {
     }
     .thriving-text{
         font-size: 1.5vh;
-        padding-bottom: 8%
+        padding-bottom: 10%;
+        margin-top: 5%
     }
     .our-text{
         border-top: 0.9vh solid #ffffff;
@@ -786,7 +817,8 @@ input[type=checkbox] {
     }
     .our-steps{
         width: 90%;
-        font-size: 1.926163723916533vh
+        font-size: 1.926163723916533vh;
+        text-transform: lowercase;
     }
     .our-approach-desc{
         font-size: 1.6051364365971108vh;
@@ -808,14 +840,19 @@ input[type=checkbox] {
         font-size: 4.615409309791332vh
     }
     .sub-title-text{
-        font-size: 2.247191011235955vh
+        font-size: 2.247191011235955vh;
+        padding-bottom: 3%
     }
     .sub-desc-text{
         font-size: 1.926163723916533vh;
-        width: 90%
+        width: 100%;
+        line-height: 1.5
     }
     .strategic-desc-text{
         font-size: 1.6051364365971108vh
+    }
+    .strategic-desc-container{
+        height: 90px;
     }
     .products-title-text{
         font-size: 3.3707865168539324vh
@@ -832,7 +869,7 @@ input[type=checkbox] {
         width: 100%
     }
     .black-button-size,.blue-btn-size{
-        width: 13%;
+        width: 12%;
     }
     .dep-text,.end-text{
         font-size: 3.3707865168539324vh
@@ -862,7 +899,8 @@ input[type=checkbox] {
         padding-left: 0%;
     }
     .our-app-img{
-        width: 100%
+        width: 100%;
+        margin-right: 3%
     }
     .depend-right-container{
         padding: 0%
@@ -975,7 +1013,7 @@ input[type=checkbox] {
         justify-content: center
     }
     .logo-box{
-        margin-bottom: 5%
+        margin-bottom: 10%
     }
     .iamnot-robot,.recaptcha{
         font-size: 0.6420545746388443vh
@@ -1088,5 +1126,23 @@ input[type=checkbox] {
     }
     .bootcamp-container-svg{
         width: 100%
+    }
+    .end-text{
+        padding-top: 2.3%
+    }
+    .dep-text{
+        border-top: 0.5vh solid #ffffff;
+    }
+    .hr-text{
+        border-top: 0.5vh solid #32BDC2;
+    }
+    .double-quote{
+        padding-top: 2%
+    }
+    .ducts-text{
+        padding-top:2.6%
+    }
+    .input-error-width{
+        width:80%
     }
 }
