@@ -1,9 +1,9 @@
 // recaptacha
 var onloadCallback = function() {
-    var recaptchas = document.querySelectorAll('div[class=g-recaptcha]');
+    var recaptchas = document.querySelectorAll('.g-recaptcha');
 
     for( i = 0; i < recaptchas.length; i++) {
-        grecaptcha.render( recaptchas[i].id, {
+        grecaptcha.render( recaptchas[i], {
         'sitekey' : '6Lf9gKwUAAAAAJHavRbL5-8FcjgmGkl2-fXldhPU',
         });
     }
@@ -565,82 +565,3 @@ setInterval(function(){
     setTimeout("showMuchMore()", 27000);
 },3000)
 clearInterval();
-
-// People and Personas
-// function showPeople1() {
-//     document.getElementById('people-1').style.display = 'block';
-//     document.getElementById('people-2').style.display = 'none'
-//     document.getElementById('people-3').style.display = 'none'
-//     document.getElementById('people-4').style.display = 'none'
-//     document.getElementById('people-5').style.display = 'none'
-//     document.getElementById('people-6').style.display = 'none'
-// }
-
-// function showPeople2() {
-//     document.getElementById('people-1').style.display = 'none';
-//     document.getElementById('people-2').style.display = 'block'
-//     document.getElementById('people-3').style.display = 'none'
-//     document.getElementById('people-4').style.display = 'none'
-//     document.getElementById('people-5').style.display = 'none'
-//     document.getElementById('people-6').style.display = 'none'
-// }
-
-// function showPeople3() {
-//     document.getElementById('people-1').style.display = 'none';
-//     document.getElementById('people-2').style.display = 'none'
-//     document.getElementById('people-3').style.display = 'block'
-//     document.getElementById('people-4').style.display = 'none'
-//     document.getElementById('people-5').style.display = 'none'
-//     document.getElementById('people-6').style.display = 'none'
-// }
-
-// function showPeople4() {
-//     document.getElementById('people-1').style.display = 'none';
-//     document.getElementById('people-2').style.display = 'none'
-//     document.getElementById('people-3').style.display = 'none'
-//     document.getElementById('people-4').style.display = 'block'
-//     document.getElementById('people-5').style.display = 'none'
-//     document.getElementById('people-6').style.display = 'none'
-// }
-
-// function showPeople5() {
-//     document.getElementById('people-1').style.display = 'none';
-//     document.getElementById('people-2').style.display = 'none'
-//     document.getElementById('people-3').style.display = 'none'
-//     document.getElementById('people-4').style.display = 'none'
-//     document.getElementById('people-5').style.display = 'block'
-//     document.getElementById('people-6').style.display = 'none'
-// }
-
-// function showPeople6() {
-//     document.getElementById('people-1').style.display = 'none';
-//     document.getElementById('people-2').style.display = 'none'
-//     document.getElementById('people-3').style.display = 'none'
-//     document.getElementById('people-4').style.display = 'none'
-//     document.getElementById('people-5').style.display = 'none'
-//     document.getElementById('people-6').style.display = 'block'
-// }
-
-// setInterval(function(){
-//     setTimeout("showPeople1()", 5000);
-//     setTimeout("showPeople2()", 10000);
-//     setTimeout("showPeople3()", 15000);
-//     setTimeout("showPeople4()", 20000);
-//     setTimeout("showPeople5()", 25000);
-//     setTimeout("showPeople6()", 30000);
-// },1000)
-// clearInterval();
-
-// setTimeout("showPeople1()", 5000);
-// setTimeout("showPeople2()", 10000);
-// setTimeout("showPeople3()", 15000);
-// setTimeout("showPeople4()", 20000);
-// setTimeout("showPeople5()", 25000);
-// setTimeout("showPeople6()", 30000);
-
-// setTimeout("showPeople1()", 5000);
-// setTimeout("showPeople2()", 10000);
-// setTimeout("showPeople3()", 15000);
-// setTimeout("showPeople4()", 20000);
-// setTimeout("showPeople5()", 25000);
-// setTimeout("showPeople6()", 30000);

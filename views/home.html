@@ -12,17 +12,19 @@
     <meta name="og:title" property="og:title" content="Carmel Software Solutions">
     <meta name="twitter:card" content="Carmel Software Solutions">
     <meta name="robots" content="index, follow">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Italianno|Pinyon+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/carmel.css">
     <title>Carmel Software Solutions</title>
     <script src="../ui/carmel.js"></script>
-    <!-- recaptcha -->
-    <script src='https://www.google.com/recaptcha/api.js' async defer></script>
+   
+    <!-- contact us -->
+    <script src="../ui/contact-us.js"></script>
 </head>
 
-<body>
+<body id="body">
     <!-- Page 1 home -->
     <main>
         <section class="min-height-full" aria-label="Home">
@@ -203,8 +205,7 @@
                             fill: #257B84;
                             font-size: 0.9992313604919293vw;
                             font-family: 'Raleway', SemiBold;
-                            ;
-                            font-weight: 600
+                            font-weight: 600;
                         }
 
                         .rect-desc-text-style {
@@ -237,7 +238,7 @@
                             }
 
                             .rect-desc-text-style {
-                                font-size: 2.6841091492776886vh
+                                font-size: 2vh
                             }
 
                             .rect-num-text-style {
@@ -245,7 +246,7 @@
                             }
 
                             .explore-text-style {
-                                font-size: 2.62841091492776886vh
+                                font-size: 2vh
                             }
                         }
                     </style>
@@ -511,7 +512,7 @@
                         <g>
                             <text x="515.24" y="448.79" class="explore-text-style">EXPLORE
                             </text>
-                            <image x="580.24" y="433" href="../images/explore-12.png" height="3%" width="2%">
+                            <image x="580.24" y="433" href="../images/explore-12.png" height="3%" width="3%">
                             </image>
                         </g>
                     </g>
@@ -533,7 +534,7 @@
                         </g>
                         <g>
                             <text x="360.24" y="158.03" class="explore-text-style">EXPLORE</text>
-                            <image x="426.24" y="142.03" href="../images/explore-12.png" height="3%" width="2%">
+                            <image x="426.24" y="142.03" href="../images/explore-12.png" height="3%" width="3%">
                             </image>
                         </g>
                     </g>
@@ -551,7 +552,7 @@
                         </g>
                         <g>
                             <text x="305.83" y="607.06" text-anchor="middle" class="explore-text-style">EXPLORE</text>
-                            <image x="340.83" y="591.06" text-anchor="end" href="../images/explore-12.png" height="3%" width="2%">
+                            <image x="340.83" y="591.06" text-anchor="end" href="../images/explore-12.png" height="3%" width="3%">
                             </image>
                         </g>
                     </g>
@@ -570,7 +571,7 @@
                         </g>
                         <g>
                             <text x="156.79" y="317.06" text-anchor="middle" class=" explore-text-style">EXPLORE</text>
-                            <image x="193.03" y="302.06" text-anchor="end" href="../images/explore-12.png" height="3%" width="2%">
+                            <image x="195.03" y="302.06" text-anchor="end" href="../images/explore-12.png" height="3%" width="3%">
                             </image>
                         </g>
                     </g>
@@ -1283,8 +1284,7 @@
                 </p>
                 <div style="padding-top:8%;">
                     <div style="display:flex;align-items:center">
-                        <p class="dark-gray-color products-title-text border-top-blue"
-                            >PRO</p>
+                        <p class="dark-gray-color products-title-text border-top-blue">PRO</p>
                         <p class="dark-gray-color products-title-text ducts-text">DUCTS</p>
                     </div>
                     <p class="dark-gray-color products-title-text" style="margin-top:1%">WE DELIVERED</p>
@@ -1304,8 +1304,8 @@
                 </div>
             </div>
             <div class="products-right-container align-self-center">
-                <div class="full-width full-height flex-container-center-row">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="55%" viewBox="0 0 193 394.1">
+                <div class="full-width full-height flex-container-row align-items-start products-img-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60%" height="55%" viewBox="0 0 193 394.1">
                         <defs>
                             <style>
                                 .cls-1-products,
@@ -1562,7 +1562,7 @@
     </section>
 
     <!-- hr desk -->
-    <section class="min-height-full" aria-label="HR Desk">
+    <section class="min-height-full" aria-label="HR Desk" id="hr-desk">
         <div class="min-height-full flex-container-row hr-desk-container">
             <div class="hrdesk-left-container">
                 <div class="hr-desk-box">
@@ -1592,17 +1592,21 @@
 
                     <div class="join-our-team-form-container">
                         <div class="hr-input-container">
-                            <input type="text" placeholder="Your e-mail" class="input-box">
-                            <div class="input-error-container input-error-width">
-                                <img src="../images/warn.png" class="warn-img">
-                                <span class="warn-text">Invalid email. Please enter a valid email</span>
+                            <input type="text" placeholder="Your e-mail" class="input-box" id="txtEmail-expirence">
+                            <div class="hide" id="input-email-error-expirence">
+                                <div class="input-error-container input-error-width">
+                                    <img src="../images/warn.png" class="warn-img">
+                                    <span class="warn-text">Invalid email. Please enter a valid email</span>
+                                </div>
                             </div>
                         </div>
                         <div class="hr-input-container" style="margin-bottom:2%">
-                            <input type="text" placeholder="Your phone no" class="input-box">
-                            <div class="input-error-container input-error-width">
-                                <img src="../images/warn.png" class="warn-img">
-                                <span class="warn-text">Invalid phone no. Please enter a valid Phone Number</span>
+                            <input type="text" placeholder="Your phone no" class="input-box" id="txtPhone-expirence">
+                            <div class="hide" id="input-phone-error-expirence">
+                                <div class="input-error-container input-error-width">
+                                    <img src="../images/warn.png" class="warn-img">
+                                    <span class="warn-text">Invalid phone no. Please enter a valid Phone Number</span>
+                                </div>
                             </div>
                         </div>
 
@@ -1662,7 +1666,7 @@
                         </div>
 
                         <div class="hr-button-container">
-                            <button class="submit-btn hr-btn-width white-color submit-text" id="btn-submit">
+                            <button class="submit-btn hr-btn-width white-color submit-text" id="btn-submit-expirence">
                                 SUBMIT
                             </button>
                         </div>
@@ -1802,17 +1806,21 @@
 
                     <div class="bootcamp-form">
                         <div class="hr-input-container">
-                            <input type="text" placeholder="Your e-mail" class="input-box">
-                            <div class="input-error-container input-error-width">
-                                <img src="../images/warn.png" class="warn-img">
-                                <span class="warn-text">Invalid email. Please enter a valid email</span>
+                            <input type="text" placeholder="Your e-mail" class="input-box" id="txtEmail-bootcamp">
+                            <div class="hide" id="input-email-error-bootcamp">
+                                <div class="input-error-container input-error-width">
+                                    <img src="../images/warn.png" class="warn-img">
+                                    <span class="warn-text">Invalid email. Please enter a valid email</span>
+                                </div>
                             </div>
                         </div>
                         <div class="hr-input-container">
-                            <input type="text" placeholder="Your phone no" class="input-box">
-                            <div class="input-error-container input-error-width">
-                                <img src="../images/warn.png" class="warn-img">
-                                <span class="warn-text">Invalid phone no. Please enter a valid Phone Number</span>
+                            <input type="text" placeholder="Your phone no" class="input-box" id="txtPhone-bootcamp">
+                            <div class="hide" id="input-phone-error-bootcamp">
+                                <div class="input-error-container input-error-width">
+                                    <img src="../images/warn.png" class="warn-img">
+                                    <span class="warn-text">Invalid phone no. Please enter a valid Phone Number</span>
+                                </div>
                             </div>
                         </div>
 
@@ -1832,7 +1840,7 @@
                         </div>
 
                         <div class="hr-button-container">
-                            <button class="submit-btn hr-btn-width white-color submit-text" id="btn-submit">
+                            <button class="submit-btn hr-btn-width white-color submit-text" id="btn-submit-bootcamp">
                                 SUBMIT
                             </button>
                         </div>
@@ -1853,17 +1861,19 @@
     </section>
 
     <!-- last page -->
-    <section class="min-height-full" aria-label="Contact Us">
+    <section class="min-height-full" aria-label="Contact Us" id="contact-us">
         <div class="flex-container-column justify-content-center align-items-center min-height-full contact-us-container">
             <img alt="" src="../images/carmel-last-page.png" class="carmel-last-page-logo" style="margin-top:3%;" />
             <p class="we-deliver">we deliver results that matter</p>
 
 
             <div class="input-container">
-                <input type="text" placeholder="Your e-mail" class="input-box-email">
-                <div class="input-error-container">
+                <input type="text" placeholder="Your e-mail" class="input-box-email" id="txtEmail">
+                <div class="hide" id="input-error-email">
+                    <div class="input-error-container" >
                     <img src="../images/warn.png" class="warn-img">
                     <span class="warn-text">Invalid email. Please enter a valid email</span>
+                    </div>
                 </div>
             </div>
 
@@ -1885,7 +1895,7 @@
 
             <div class="button-container">
                 <div style="display: flex;align-items: center;justify-content: center">
-                    <button class="submit-btn btn-width white-color submit-text" id="btn-submit">
+                    <button class="submit-btn btn-width white-color submit-text" id="btn-submit-email">
                         SUBMIT
                     </button>
                 </div>
@@ -1922,6 +1932,26 @@
             </div>
         </footer>
     </section>
+
+    <div class="save-success-modal" id="save-success-modal" onclick="document.getElementById('save-success-modal').style.display='none';window.location.reload();">
+        <div class="modal-body-window">
+            <p style="color:#747474;font-weight:600;font-size:1.4760953112990008vw;text-align: center;font-family: 'Raleway';padding: 5%;padding-top: 13%">The email has been successfully submitted.</p>
+            <p style="color:#747474;font-weight:500;font-size:1.4760953112990008vw;text-align: center;font-family: 'Raleway';padding: 5%;padding-top: 2%">Please let us know, how we can help you</p>
+        </div>
+    </div>
+
+    <div class="save-success-modal" id="save-error-modal" onclick="document.getElementById('save-error-modal').style.display='none';window.location.reload();">
+        <div class="modal-body-window">
+            <p style="color:#b82525;font-weight:600;font-size:1.4760953112990008vw;text-align: center;font-family: 'Raleway';padding: 5%;padding-top: 13%">Oops! Something Went wrong.Please try again..</p>
+        </div>
+    </div>
+
+    <!-- recaptcha -->
+ <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+ async defer>
+</script>
+
 </body>
+ 
 
 </html>
